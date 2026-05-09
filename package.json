@@ -1,6 +1,7 @@
 {
   "name": "acs",
   "version": "0.1.0",
+  "description": "Agent Client Server for exposing a local agent over Tailscale",
   "private": false,
   "type": "module",
   "scripts": {

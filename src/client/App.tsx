@@ -60,7 +60,7 @@ export function App() {
     <main className="app-shell">
       <header className="app-header">
         <div>
-          <span className="eyebrow">Agent Connection Server</span>
+          <span className="eyebrow">Agent Client Server</span>
           <h1>ACS</h1>
         </div>
         <div className="header-actions">
@@ -158,4 +158,3 @@ function formatUptime(seconds: number): string {
   const hours = Math.floor(minutes / 60);
   return `${hours}h ${minutes % 60}m`;
 }
-

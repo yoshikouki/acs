@@ -1,6 +1,6 @@
 # ACS
 
-ACS exposes a local agent service through a small Bun + Hono server with a React client.
+ACS (Agent Client Server) exposes a local agent service through a small Bun + Hono server with a React client.
 
 The first target is a Raspberry Pi on a private Tailscale network, where Safari on an iPhone can reach this server and send requests to a local Codex App Server.
 
@@ -56,4 +56,3 @@ Access logs are appended to `~/.acs/logs/access.jsonl`.
 ## Repository Notes
 
 This repository is intended to be public. Do not commit `.env`, generated builds, local logs, or files from `~/.acs`.
-
